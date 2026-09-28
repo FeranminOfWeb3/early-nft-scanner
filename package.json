@@ -1,0 +1,12 @@
+{
+  "name": "early-nft-scanner",
+  "version": "1.0.0",
+  "description": "Watches Ethereum for newly deployed NFT contracts (ERC-721/1155) and alerts via Telegram before they gain traction",
+  "main": "early-scanner.js",
+  "scripts": {
+    "start": "node early-scanner.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
